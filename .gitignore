@@ -1,0 +1,12 @@
+node_modules/
+data/leads.json
+data/findings.json
+data/users.json
+data/google-credentials.json
+data/ai-config.json
+images/findings/
+images/contact/
+.DS_Store
+Thumbs.db
+*.log
+_original/

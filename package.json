@@ -1,0 +1,15 @@
+{
+  "name": "oilcert",
+  "version": "1.0.0",
+  "description": "OilCert - OFTEC oil boiler servicing, oil tank inspections and oil heating safety certificates across Hertfordshire",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "googleapis": "^140.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
