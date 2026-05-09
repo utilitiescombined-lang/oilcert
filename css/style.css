@@ -343,7 +343,7 @@ h1, h2, h3, h4 {
 
 .signs-img {
     width: 100%;
-    aspect-ratio: 4/5;
+    aspect-ratio: 5/4;
     object-fit: cover;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);

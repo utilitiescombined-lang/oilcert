@@ -83,10 +83,11 @@ Once swapped, deploy and verify each tag in **GTM Preview**, **Clarity Live**, a
 - [x] Currently uses the full-colour logo (`images/favicon.png` = a 233 KB copy of the logo PNG)
 - [ ] **Optional:** generate a proper favicon set (16×16, 32×32, 180×180 apple-touch-icon, 192/512 PWA icons) at https://realfavicongenerator.net and replace the single PNG. The current setup works but pays a small KB cost on first load.
 
-## 13. Branding — testing.png leftover
-- [x] The signs section currently uses **text-only single-column layout** (the old electrical fuse-board image was removed)
-- [ ] If you want to re-add a companion image, drop a 4/5 aspect-ratio oil-themed photo at `images/signs.webp` and update `pages/tips.html` and `index.html` to reference it. The CSS class `signs-grid-text` becomes `signs-grid` again to restore the two-column layout.
-- [ ] `images/testing.png` (2.5 MB old electrical fuse-board photo) is unreferenced and can be deleted
+## 13. Signs section image
+- [x] `images/signs.jpg` is a real OFTEC service photo (Worcester oil boiler being serviced — burner pulled, flue analyser fitted, tools laid out). Used in the homepage Signs section in a two-column layout next to the self-check checklist.
+- [x] Re-encoded from a 3 MB PNG to a 381 KB JPEG (quality 82) for web performance
+- [x] CSS `.signs-img` aspect-ratio is `5/4` to match the photo's natural 4:3 — only ~3% horizontal crop on each side with `object-fit: cover`
+- [x] Old `images/testing.png` (electrical fuse-board photo) deleted
 
 ## 14. Reviews on the homepage
 - [x] The four reviews on the homepage are **rewritten as oil-heating equivalents** of the originals — they are placeholder copy that reads naturally for the new domain
