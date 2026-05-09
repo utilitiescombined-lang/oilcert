@@ -7,9 +7,10 @@ site is fully live and tracked.
 ---
 
 ## 1. GitHub repo transfer
-- [ ] Push the local repo to **github.com/danielcrypto1/oilcert** (Claude does this in setup)
-- [ ] Transfer the repo: **GitHub Settings → Danger Zone → Transfer** to **utilitiescombined-lang**
-- [ ] After transfer, update `render.yaml` `repo:` to `https://github.com/utilitiescombined-lang/oilcert` and push that commit (Claude does this once you confirm the transfer is complete)
+- [x] Pushed the local repo to **github.com/danielcrypto1/oilcert**
+- [x] Transferred to **utilitiescombined-lang** — repo now lives at https://github.com/utilitiescombined-lang/oilcert
+- [x] `render.yaml` `repo:` updated to the new org URL
+- [x] Local origin remote re-pointed to the new URL
 
 ## 2. Render web service
 - [ ] Render → New → **Blueprint** → connect the repo at utilitiescombined-lang/oilcert

@@ -2,7 +2,7 @@ services:
   - type: web
     name: oilcert
     runtime: node
-    repo: https://github.com/danielcrypto1/oilcert
+    repo: https://github.com/utilitiescombined-lang/oilcert
     branch: master
     buildCommand: npm install
     startCommand: node server.js
